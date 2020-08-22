@@ -52,10 +52,10 @@
 		5418733324F1969D00EB90D1 /* Fitness Dashboard */ = {
 			isa = PBXGroup;
 			children = (
-				5418733424F1969D00EB90D1 /* Fitness_DashboardApp.swift */,
-				5418733624F1969D00EB90D1 /* ContentView.swift */,
-				5418733824F1969E00EB90D1 /* Assets.xcassets */,
-				5418733D24F1969E00EB90D1 /* Info.plist */,
+				5418734624F19BC000EB90D1 /* Fitness */,
+				5418734524F19BA200EB90D1 /* Login */,
+				5418734424F19B7E00EB90D1 /* Main */,
+				5418734324F19B4C00EB90D1 /* App */,
 				5418733A24F1969E00EB90D1 /* Preview Content */,
 			);
 			path = "Fitness Dashboard";
@@ -67,6 +67,38 @@
 				5418733B24F1969E00EB90D1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5418734324F19B4C00EB90D1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5418733424F1969D00EB90D1 /* Fitness_DashboardApp.swift */,
+				5418733824F1969E00EB90D1 /* Assets.xcassets */,
+				5418733D24F1969E00EB90D1 /* Info.plist */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		5418734424F19B7E00EB90D1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5418733624F1969D00EB90D1 /* ContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5418734524F19BA200EB90D1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		5418734624F19BC000EB90D1 /* Fitness */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Fitness;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
