@@ -13,6 +13,7 @@
 		5418733C24F1969E00EB90D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5418733B24F1969E00EB90D1 /* Preview Assets.xcassets */; };
 		5418734824F19CC300EB90D1 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418734724F19CC300EB90D1 /* LoginPage.swift */; };
 		5473EF5324F2B98D00C03EE2 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5473EF5224F2B98D00C03EE2 /* SignUp.swift */; };
+		5473EF5524F2BD3400C03EE2 /* NotMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5473EF5424F2BD3400C03EE2 /* NotMe.swift */; };
 		54D579BD24F280AF00249223 /* LoginMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D579BC24F280AF00249223 /* LoginMain.swift */; };
 		54E8EECC24F2873100C081E2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E8EECB24F2873100C081E2 /* LoginView.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		5418733D24F1969E00EB90D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5418734724F19CC300EB90D1 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		5473EF5224F2B98D00C03EE2 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		5473EF5424F2BD3400C03EE2 /* NotMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotMe.swift; sourceTree = "<group>"; };
 		54D579BC24F280AF00249223 /* LoginMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMain.swift; sourceTree = "<group>"; };
 		54E8EECB24F2873100C081E2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +103,7 @@
 				5418734724F19CC300EB90D1 /* LoginPage.swift */,
 				5473EF5224F2B98D00C03EE2 /* SignUp.swift */,
 				54D579BC24F280AF00249223 /* LoginMain.swift */,
+				5473EF5424F2BD3400C03EE2 /* NotMe.swift */,
 				54E8EECB24F2873100C081E2 /* LoginView.swift */,
 			);
 			path = Login;
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5473EF5524F2BD3400C03EE2 /* NotMe.swift in Sources */,
 				54D579BD24F280AF00249223 /* LoginMain.swift in Sources */,
 				5473EF5324F2B98D00C03EE2 /* SignUp.swift in Sources */,
 				5418733724F1969D00EB90D1 /* ContentView.swift in Sources */,

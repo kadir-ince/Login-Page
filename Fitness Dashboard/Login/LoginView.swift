@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LoginView: View {
     @State var password = ""
-    @State private var isPresented = false
+    @State var isPresented = false
     var body: some View {
         VStack {
             HStack {
@@ -21,7 +21,9 @@ struct LoginView: View {
                         .fontWeight(.bold)
                         .foregroundColor(.white)
                         .font(.title)
-                    Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ {}/*@END_MENU_TOKEN@*/) {
+                    Button(action: {
+                        // not me codes
+                    }) {
                         Text("Not Me")
                             .foregroundColor(.blue)
                             .font(.system(size: 14, weight: .semibold))
