@@ -7,7 +7,7 @@ Fitness Dashboard
 
 ## Login Page
 
-<img src="https://github.com/kadir-ince/Fitness-Dashboard/blob/master/login.gif" width="350" alt="login page">
+<img src="https://github.com/kadir-ince/Fitness-Dashboard/blob/main/login.gif?raw=true" width="350" alt="login page">
 
 ## How Can I Open On My Mac?  🔨
 
