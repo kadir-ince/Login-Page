@@ -69,7 +69,7 @@ struct LoginMain: View {
             }
             .padding(.top, 30)
             if index == 0 {
-                // login view
+                LoginView()
             } else {
                 // sign up view
             }
