@@ -33,7 +33,6 @@ struct LoginView: View {
                     .aspectRatio(contentMode: .fit)
                     .cornerRadius(18)
                     .frame(width: 125, height: 125, alignment: .center)
-                    
             }
             .padding(.horizontal, 25)
             .padding(.vertical, 30)
@@ -58,8 +57,7 @@ struct LoginView: View {
                 }
                 .padding(.top, 10)
             }
-            .padding(.horizontal, 25)
-            .padding(.top, 25)
+            .padding([.horizontal, .top], 25)
 
             Button(action: {
                 isPresented.toggle()
@@ -73,8 +71,7 @@ struct LoginView: View {
                             LinearGradient(gradient: Gradient(colors: [Color("blue"), Color("purple")]), startPoint: .topLeading, endPoint: .bottomTrailing))
                         .cornerRadius(8)
             }
-            .padding(.horizontal, 25)
-            .padding(.top, 25)
+            .padding([.horizontal, .top], 25)
             .fullScreenCover(isPresented: $isPresented) {
                 // Dashboard View
             }
@@ -83,7 +80,7 @@ struct LoginView: View {
                     Image(systemName: "faceid")
                         .font(.system(size: 26))
                         .foregroundColor(.blue)
-                    Text("Login With FaceID")
+                    Text("Login With Face ID")
                         .font(.system(size: 20, weight: .bold))
                         .foregroundColor(.blue)
                     Spacer()

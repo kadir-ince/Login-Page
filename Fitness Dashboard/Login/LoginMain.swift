@@ -16,7 +16,7 @@ struct LoginMain: View {
         VStack {
             Image(systemName: "circle.grid.hex.fill")
                 .font(.system(size: 70))
-                .foregroundColor(.white)
+                .foregroundColor(index == 0 ? .green : .blue)
 
             // login
             HStack(spacing: 0) {
@@ -71,7 +71,7 @@ struct LoginMain: View {
             if index == 0 {
                 LoginView()
             } else {
-                // sign up view
+                SignUp()
             }
         }
     }
