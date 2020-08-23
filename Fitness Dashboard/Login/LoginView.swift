@@ -28,9 +28,12 @@ struct LoginView: View {
                     }
                 }
                 Spacer()
-                Image(systemName: "person.circle")
-                    .font(.system(size: 85))
-                    .foregroundColor(.white)
+                Image("profile")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .cornerRadius(18)
+                    .frame(width: 125, height: 125, alignment: .center)
+                    
             }
             .padding(.horizontal, 25)
             .padding(.vertical, 30)
@@ -85,8 +88,8 @@ struct LoginView: View {
                         .foregroundColor(.blue)
                     Spacer()
                 }
-                padding()
-                    .background(RoundedRectangle(cornerRadius: 8).stroke(Color("blue"), lineWidth: 1))
+                .padding()
+                .background(RoundedRectangle(cornerRadius: 8).stroke(Color("blue"), lineWidth: 1))
             }
             .padding(.top, 35)
             .padding(.horizontal, 25)
