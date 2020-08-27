@@ -3,7 +3,6 @@ Fitness Dashboard
 
 [![swift-version](https://img.shields.io/badge/swift-5-brightgreen.svg)](https://github.com/apple/swift) 
 [![xcode-version](https://img.shields.io/badge/xcode-12%20beta-brightgreen)](https://developer.apple.com/xcode/) <br>
-![GitHub repo size](https://img.shields.io/github/repo-size/kadir-ince/Fitness-Dashboard)
 
 ## Login Page
 
