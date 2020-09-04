@@ -65,21 +65,37 @@ struct SignUp: View {
                     .cornerRadius(8)
             }
             .padding([.horizontal, .top], 25)
-            Button(action: {}) {
-                HStack(spacing: 35) {
-                    Image(systemName: "faceid")
-                        .font(.system(size: 26))
-                        .foregroundColor(.blue)
-                    Text("Sign Up With Face ID")
-                        .font(.system(size: 20, weight: .bold))
-                        .foregroundColor(.blue)
-                    Spacer()
+
+            HStack {
+                VStack {
+                    Divider()
+                        .background(Color(.white))
                 }
-                .padding()
-                .background(RoundedRectangle(cornerRadius: 8).stroke(Color("blue"), lineWidth: 1))
+                Text("OR")
+                    .padding(.horizontal)
+                VStack {
+                    Divider()
+                        .background(Color(.white))
+                }
             }
-            .padding(.top, 35)
-            .padding(.horizontal, 25)
+            .padding(.horizontal, 30)
+            .padding(.vertical)
+            HStack(spacing: 45) {
+                Image("google")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 35)
+
+                Image("facebook")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 35)
+
+                Image("mail")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 35)
+            }
         }
     }
 }
