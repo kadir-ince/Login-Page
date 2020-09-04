@@ -24,9 +24,9 @@ struct LoginView: View {
                     Button(action: {
                         // not me codes
                     }) {
-                        Text("Not Me")
-                            .foregroundColor(.blue)
-                            .font(.system(size: 14, weight: .semibold))
+                            Text("Not Me")
+                                .foregroundColor(.blue)
+                                .font(.system(size: 14, weight: .semibold))
                     }
                 }
                 Spacer()
@@ -37,7 +37,7 @@ struct LoginView: View {
                     .frame(width: 125, height: 125, alignment: .center)
             }
             .padding(.horizontal, 25)
-            .padding(.vertical, 30)
+            .padding(.top, 30)
 
             VStack(alignment: .leading, spacing: 15) {
                 Text("Password")
@@ -77,6 +77,22 @@ struct LoginView: View {
             .fullScreenCover(isPresented: $isPresented) {
                 // Dashboard View
             }
+
+            HStack {
+                VStack {
+                    Divider()
+                        .background(Color(.white))
+                }
+                Text("OR")
+                    .padding(.horizontal)
+                VStack {
+                    Divider()
+                        .background(Color(.white))
+                }
+            }
+            .padding(.horizontal, 30)
+            .padding(.vertical)
+
             Button(action: {}) {
                 HStack(spacing: 35) {
                     Image(systemName: "faceid")
@@ -90,7 +106,6 @@ struct LoginView: View {
                 .padding()
                 .background(RoundedRectangle(cornerRadius: 8).stroke(Color("blue"), lineWidth: 1))
             }
-            .padding(.top, 35)
             .padding(.horizontal, 25)
         }
     }
